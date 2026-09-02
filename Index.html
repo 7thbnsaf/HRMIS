@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Make the page responsive on phones/tablets -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Web App</title>
+
+  <style>
+    /* Remove all browser default spacing */
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    /* Full-screen iframe */
+    #appFrame {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      margin: 0;
+      padding: 0;
+      display: block;
+      background: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <iframe
+    id="appFrame"
+    src="https://script.google.com/macros/s/AKfycbyPnvn8fexxquOO8bn1FqlXhGjsexMDfPt3w0L-XrLvcJ-dwPQJQLc2pXVQdWsOaVrD/exec"
+    title="My Web App"
+    frameborder="0"
+    allow="fullscreen"
+    allowfullscreen>
+  </iframe>
+
+</body>
+</html>
